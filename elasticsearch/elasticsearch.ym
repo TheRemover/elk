@@ -1,0 +1,10 @@
+cluster.name: elk-test
+network.host: 0.0.0.0
+#Your DNS names or IP address for your elasticsearch nodes)
+discovery.zen.ping.unicast.hosts: ["elasticsearchX", "elasticsearchX"] 
+discovery.zen.minimum_master_nodes: 2
+# Uncomment following lines for X-Pack monitoring
+#xpack.graph.enabled: false
+#xpack.ml.enabled: false
+#xpack.security.enabled: false
+#xpack.watcher.enabled: false
